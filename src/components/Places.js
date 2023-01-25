@@ -9,7 +9,7 @@ import StaticBar from './StaticBar';
 const Places = () => {
   return (
     <div className='div-center-80 placesMain'>
-        <StaticBar/>
+        {/* <StaticBar/> */}
         <div>
         <h5 className='label'>We found 3 best stops for your way</h5>
          <CitiesInfo cityName="Koln, Germany" location="Schagbaumsweg 1, 51067" temp="14°" byAir="22,55 km" distance="19 mins"/>
