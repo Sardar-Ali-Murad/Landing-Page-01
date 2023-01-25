@@ -1,0 +1,12 @@
+.searchMain{
+    display: flex;
+    gap: 40px;
+    margin-top: 37px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+/* 
+@media screen a {
+    
+} */

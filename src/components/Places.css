@@ -1,0 +1,39 @@
+.placesMain{
+    margin-top: 70px;
+    display: flex;
+    gap: 60px;
+}
+
+
+
+.locationsInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.seeMore{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+
+
+
+
+@media screen and (max-width:900px) {
+    .placesMain{
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+    .seeMore{
+        flex-direction: column;
+    }
+}
