@@ -1,0 +1,10 @@
+.staticBarMain{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: fixed;
+    left: -130px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 2px aliceblue;
+    padding: 10px;
+}

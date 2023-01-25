@@ -30,7 +30,7 @@ const CitiesInfo = ({cityName,location,temp,byAir,distance}) => {
 
 <div style={{display:"flex",alignItems:"center"}}>
   <AiOutlineLeftCircle/>
-  <p className='label'>19 min</p>
+  <p className='label'>{byAir}</p>
 </div>
 
 </div>

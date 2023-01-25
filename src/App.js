@@ -1,11 +1,13 @@
-import  {Headers,Search,Check}  from "./components/index"
+// import  {Headers,Search,Check}  from "./components/index"
 import Location from "./pages/Location";
+import Front from "./pages/Front";
 function App() {
   return (
     <div style={{overflowX:"hidden"}}>
-       <Headers/>
+       {/* <Headers/>
        <Search/>
-       <Check/>
+       <Check/> */}
+       <Front/>
        <Location/>
     </div>
   );
