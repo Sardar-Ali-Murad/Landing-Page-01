@@ -2,6 +2,7 @@ import React from 'react'
 import Pic from "../img/man.png"
 import "./Headers.css"
 
+// The most upperPart and is the part of Front.js in pages
 const Header = () => {
   return (
     <div className='div-center-60 headersMain'>

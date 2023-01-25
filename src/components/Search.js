@@ -3,8 +3,9 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import {AiOutlineArrowRight}  from "react-icons/ai"
 import {AiOutlineArrowLeft} from "react-icons/ai"
-import Checkbox from '@mui/material/Checkbox';
 import "./Search.css"
+
+// Part of Front.js in pages and third part of the front.js
 const Search = () => {
   return (
     <div className='div-center-50 searchMain'>

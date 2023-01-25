@@ -2,6 +2,8 @@ import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import "./Checks.css"
+
+//  Check is basically checkbox used in the page Front.js in pages folder
 const Check = () => {
   return (
     <div className='div-center'>
