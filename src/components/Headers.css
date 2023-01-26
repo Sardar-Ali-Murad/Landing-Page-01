@@ -1,11 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Cedarville+Cursive&family=Cormorant+Garamond:wght@300&family=Handlee&family=Open+Sans:wght@300&family=Oswald&family=Roboto+Mono:wght@300&family=Roboto:wght@300;400&family=Rubik+Bubbles&display=swap');
+
 .headersMain{
     display: flex;
 align-items: center;
 justify-content: space-around;
+padding-top: 50px;
+}
+
+.headersMain h5{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #232323;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.headersImage{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  right: 50px;
+}
+
+.headersImage p{
+font-size: 16px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #000000;
+font-family: 'Roboto Mono', monospace;
+
 }
 
 @media screen and (max-width:800px) {
   .headersMain{
-    width: 80%;
+    width: 90%;
+  }
+  .headersImage{
+    right: 10px;
   }    
+
+  .headersMain h5{
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .headersMain h5{
+    font-size: 20px;
+    margin-right: 50px;
+  }
+}
+
+
+@media screen and (max-width:450px) {
+  .headersMain h5{
+    font-size: 20px;
+    margin-right: 100px;
+  }
 }

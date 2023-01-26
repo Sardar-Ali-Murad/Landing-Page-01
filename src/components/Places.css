@@ -1,30 +1,42 @@
 .placesMain{
     margin-top: 70px;
     display: flex;
-    gap: 60px;
+    gap: 30px;
     margin-bottom: 40px;
+    padding-left: 6.6%;
+    padding-right: 1%;
+}
+/* 
+.div-center-95{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 88%;
+  } */
+
+.placesInfo h5{
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0.02em;
+text-align: left;
+font-family: 'Roboto Mono', monospace;
+color: #000000;
 }
 
 
 
 .locationsInfo{
     display: flex;
-    justify-content: space-between;
     margin-top: 40px;
     flex-wrap: wrap;
-    gap: 40px;
-}
-
-.seeMore{
-    display: flex;
     gap: 20px;
-    margin-top: 40px;
-    gap: 40px;
+    align-items: center;
 }
 
-.flexSettings{
+.info{
     display: flex;
     align-items: center;
+    gap: 9px;
 }
 
 .flexSettingsFront{
@@ -33,10 +45,136 @@
     gap: 20px;
 }
 
+.flexSettingsFront h6{
+font-size: 20px;
+font-weight: 500;
+text-align: left;
+font-family: 'Roboto Mono', monospace;
+color: #232323;
+font-size: 16px;
+font-weight: bold;
+}
+
+
+.flexSettingsFront p{
+font-size: 16px;
+font-weight: 300;
+line-height: 22px;
+letter-spacing: 0.02em;
+text-align: left;
+font-family: 'Roboto Mono', monospace;
+color: #232323;
+
+}
+
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: #EEEEEE;
+    margin-top: 30px;
+}
+
+
+.cloud{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.flexSettings{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.travel .soFar{
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+font-family: 'Roboto Mono', monospace;
+color: #838383;
+}
 
 
 
-@media screen and (max-width:900px) {
+.seeMore{
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+}    
+
+
+
+
+.distance{
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #232323;
+font-family: 'Roboto Mono', monospace;
+}
+
+.locationIcon{
+    color: #383FF1;
+}
+
+.byAirDistance{
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #232323;
+font-family: 'Roboto Mono', monospace;
+}
+
+.seeMoreContent{
+    line-height: 10px;
+}
+
+
+.seeMoreContent h4{
+color: #1E1E1E;
+ margin: 0px;
+padding: 0px;
+margin-bottom: 8px; 
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0.02em;
+text-align: left;
+font-family: 'Roboto Mono', monospace;
+}
+
+.seeMoreContent p{
+font-size: 12px;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #838383;
+margin-bottom: 8px;
+font-family: 'Roboto Mono', monospace;
+}
+
+.watch,.distanceIcon{
+    color: #383FF1;
+}
+
+
+.map{
+    border-radius: 10px;
+}
+
+/* .mapMain{
+box-shadow:  0 20px 25px -5px rgba(0, 0, 0, 0.1),
+0 10px 10px -5px rgba(0, 0, 0, 0.04);} */
+
+@media screen and (max-width:1000px) {
     .placesMain{
         flex-direction: column;
     }

@@ -5,7 +5,7 @@ import Front from "./pages/Front";
 function App() {
   return (
     <div style={{overflowX:"hidden"}}>   
-       <StaticBar/>
+       {/* <StaticBar/> */}
        <Front/>
        <Links/>
        <Location/>

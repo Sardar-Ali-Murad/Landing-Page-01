@@ -1,3 +1,9 @@
+.div-center-70{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+}
+
 .searchMain{
     display: flex;
     gap: 40px;
@@ -10,6 +16,28 @@
     border-radius: 20px;
 }
 
-.arrows{
-    color: #E88B71;
+.arrow{
+    height: 33px;
+margin-top: 12px;
+}
+
+
+.searchBtn{
+    height: 65px;
+width: 173px;
+left: 925px;
+top: 124px;
+border-radius: 15px;
+padding: 19px 53px 19px 53px;
+background-color: #383FF1;
+color: #FFFFFF;
+
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+
+/* identical to box height */
+letter-spacing: 0.02em;
+color: #FFFFFF;
+font-family: 'Roboto Mono', monospace;
 }

@@ -4,9 +4,9 @@ import "./Links.css"
 const Links = () => {
   return (
       <div className='components'>
-        <p style={{textDecoration:"underline"}}>Entertainment</p>
-        <p>Hotel</p>
-        <p>Shops</p>
+        <p className='entertain'>Entertainment</p>
+        <p className='hotel'>Hotel</p>
+        <p className='shops'>Shops</p>
       </div> 
   )
 }

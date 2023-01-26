@@ -7,9 +7,11 @@ import "./Check.css"
 const Check = () => {
   return (
     <div className=' checkMain'>
-      <FormGroup>
+      {/* <FormGroup>
          <FormControlLabel control={<Checkbox defaultChecked />} label="I want to stay in a hotel" />
-      </FormGroup>
+      </FormGroup> */}
+      <Checkbox/>
+      <h2>I want to stay in a hotel</h2>
     </div>
   )
 }
