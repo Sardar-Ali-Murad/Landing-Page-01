@@ -6,3 +6,10 @@
     flex-wrap: wrap;
 }
 
+.inputs{
+    border-radius: 20px;
+}
+
+.arrows{
+    color: #E88B71;
+}

@@ -9,13 +9,13 @@ import "./Search.css"
 const Search = () => {
   return (
     <div className='div-center-50 searchMain'>
-       <TextField label="Origin" color="secondary" focused />
-       <TextField label="destination" color="secondary" focused />
+       <TextField label="Origin" color="warning" focused />
        <div>
-       <AiOutlineArrowRight/>
-       <AiOutlineArrowLeft/>
+       <AiOutlineArrowRight className='arrows'/>
+       <AiOutlineArrowLeft className='arrows'/>
        </div>
-       <Button variant="contained">Contained</Button>
+       <TextField label="Destination" color="warning" focused />
+       <Button variant="contained" style={{borderRadius:"10px",width:"120px"}}>Search</Button>
     </div>
   )
 }

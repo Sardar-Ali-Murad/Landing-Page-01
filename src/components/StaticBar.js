@@ -5,6 +5,8 @@ import Pic3 from "../img/03.png"
 import Pic4 from "../img/04.png"
 import "./StaticBar.css"
 
+
+// The Fixed Part
 const StaticBar = () => {
   return (
     <div className='staticBarMain'>
