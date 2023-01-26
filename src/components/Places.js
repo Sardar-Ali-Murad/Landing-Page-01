@@ -10,8 +10,8 @@ import StaticBar from "./StaticBar";
 const Places = () => {
   return (
     <div className="placesBigMain">
-    <div className="placesMain ">
       <StaticBar/>
+    <div className="placesMain ">
       {/* Part 1 Starts */} 
       <div className="placesInfo">
         <h5>We found 3 best stops for your way</h5>

@@ -13,6 +13,14 @@
     width: 88%;
   } */
 
+  .placesInfo{
+    flex: 1;
+  }
+
+  .mapMain{
+    flex: 1;
+  }
+
 .placesInfo h5{
 font-size: 24px;
 font-weight: 700;
@@ -29,7 +37,7 @@ color: #000000;
     display: flex;
     margin-top: 40px;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 40px;
     align-items: center;
 }
 
@@ -159,6 +167,7 @@ text-align: left;
 color: #838383;
 margin-bottom: 8px;
 font-family: 'Roboto Mono', monospace;
+margin-bottom: 20px;
 }
 
 .watch,.distanceIcon{
@@ -168,6 +177,8 @@ font-family: 'Roboto Mono', monospace;
 
 .map{
     border-radius: 10px;
+    box-shadow:  0 20px 25px -5px rgba(0, 0, 0, 0.1),
+0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
 /* .mapMain{

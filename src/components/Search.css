@@ -23,7 +23,7 @@ margin-top: 12px;
 
 
 .searchBtn{
-    height: 65px;
+    height: 58px;
 width: 173px;
 left: 925px;
 top: 124px;
@@ -40,4 +40,7 @@ line-height: 27px;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 font-family: 'Roboto Mono', monospace;
+display: flex;
+justify-content: center;
+align-items: center;
 }
