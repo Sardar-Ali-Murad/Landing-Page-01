@@ -17,7 +17,9 @@ const CitiesInfo = ({ cityName, location, temp, byAir, distance, icon }) => {
             <h6>{cityName}</h6>
             <div className="cloud">
               <img src={cloud} />
+              <p>
               {temp}
+              </p>
             </div>
           </div>
           <p>{location}</p>
@@ -32,7 +34,7 @@ const CitiesInfo = ({ cityName, location, temp, byAir, distance, icon }) => {
         </div>
       </div>
 
-      <div className="flexSettings">
+      <div className="flexSettings distanceNeeded">
         <BsStopwatch className="watch" />
         <p className="distance">{distance}</p>
       </div>

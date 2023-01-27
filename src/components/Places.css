@@ -5,16 +5,14 @@
     margin-bottom: 40px;
     padding-left: 6.6%;
     padding-right: 1%;
+    /* background-color: #E5E5E5; */
 }
-/* 
-.div-center-95{
-    margin-left: 50%;
-    transform: translateX(-50%);
-    width: 88%;
-  } */
+
+
 
   .placesInfo{
     flex: 1;
+    margin-top: 40px;
   }
 
   .mapMain{
@@ -61,7 +59,7 @@ text-align: left;
 /* font-family: 'Roboto Mono', monospace; */
 color: #232323;
 font-size: 16px;
-font-weight: bold;
+/* font-weight: bold; */
 font-family: 'Roboto', sans-serif;
 }
 
@@ -96,6 +94,10 @@ font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.distanceNeeded{
+    margin-top: 17px;
 }
 
 .travel .soFar{
@@ -136,7 +138,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .byAirDistance{
-font-size: 18px;
+font-size: 16px;
 font-weight: 400;
 line-height: 22px;
 letter-spacing: 0.02em;
@@ -193,7 +195,7 @@ font-family: 'Roboto', sans-serif;
 box-shadow:  0 20px 25px -5px rgba(0, 0, 0, 0.1),
 0 10px 10px -5px rgba(0, 0, 0, 0.04);} */
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1100px) {
     .placesMain{
         flex-direction: column;
     }
