@@ -1,11 +1,8 @@
 .placesMain{
     margin-top: 30px;
     display: flex;
-    gap: 30px;
-    margin-bottom: 40px;
-    padding-left: 6.6%;
+    padding-left: 7.2%;
     padding-right: 1%;
-    /* background-color: #E5E5E5; */
 }
 
 
@@ -36,7 +33,7 @@ font-family: 'Roboto', sans-serif;
     display: flex;
     margin-top: 40px;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 60px;
     align-items: center;
 }
 
@@ -59,7 +56,6 @@ text-align: left;
 /* font-family: 'Roboto Mono', monospace; */
 color: #232323;
 font-size: 16px;
-/* font-weight: bold; */
 font-family: 'Roboto', sans-serif;
 }
 
@@ -73,14 +69,19 @@ text-align: left;
 /* font-family: 'Roboto Mono', monospace; */
 color: #232323;
 font-family: 'Roboto', sans-serif;
+}
 
+.location{
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
 .line{
     height: 1px;
-    width: 100%;
+    width: 98%;
     background-color: #EEEEEE;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 
@@ -191,9 +192,7 @@ font-family: 'Roboto', sans-serif;
 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
-/* .mapMain{
-box-shadow:  0 20px 25px -5px rgba(0, 0, 0, 0.1),
-0 10px 10px -5px rgba(0, 0, 0, 0.04);} */
+
 
 @media screen and (max-width:1100px) {
     .placesMain{
@@ -201,6 +200,12 @@ box-shadow:  0 20px 25px -5px rgba(0, 0, 0, 0.1),
     }
 }
 
+
+@media screen and (max-width:1100px) {
+    .locationsInfo{
+        gap: 20px;
+    }
+}
 
 @media screen and (max-width:700px) {
     .seeMore{

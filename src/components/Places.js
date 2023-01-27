@@ -10,7 +10,9 @@ import StaticBar from "./StaticBar";
 const Places = () => {
   return (
     <div className="placesBigMain">
+      {/* The fixed bar at the miidle left corner of part 2 of page */}
       <StaticBar/>
+
     <div className="placesMain">
       {/* Part 1 Starts */} 
       <div className="placesInfo">

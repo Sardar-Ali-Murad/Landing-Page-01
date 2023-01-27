@@ -1,12 +1,12 @@
 .div-center-70{
     margin-left: 50%;
     transform: translateX(-50%);
-    width: 70%;
+    width: 60%;
 }
 
 .searchMain{
     display: flex;
-    gap: 40px;
+    gap: 30px;
     margin-top: 37px;
     margin-bottom: 20px;
     flex-wrap: wrap;

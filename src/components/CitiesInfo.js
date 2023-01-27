@@ -22,7 +22,7 @@ const CitiesInfo = ({ cityName, location, temp, byAir, distance, icon }) => {
               </p>
             </div>
           </div>
-          <p>{location}</p>
+          <p className="location">{location}</p>
         </div>
       </div>
 
