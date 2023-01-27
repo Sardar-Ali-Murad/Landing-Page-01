@@ -11,6 +11,7 @@ const Check = () => {
       }}
 />
       <h2>I want to stay in a hotel</h2>
+      
     </div>
   )
 }
