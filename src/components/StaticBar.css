@@ -38,13 +38,14 @@ color:  #383FF1;
 }
 
 .singleBar p{
-    font-family: Satoshi;
-font-size: 15px;
+    /* font-family: Satoshi; */
+font-size: 10px;
 font-weight: 500;
 line-height: 20px;
 letter-spacing: 0.02em;
 text-align: left;
 color:  #E88B71;
+font-family: 'Roboto', sans-serif;
 }
 
 

@@ -11,7 +11,7 @@ const Places = () => {
   return (
     <div className="placesBigMain">
       <StaticBar/>
-    <div className="placesMain ">
+    <div className="placesMain">
       {/* Part 1 Starts */} 
       <div className="placesInfo">
         <h5>We found 3 best stops for your way</h5>
@@ -49,7 +49,7 @@ const Places = () => {
           cityName="Frankfurt,Germany"
           location="Strassburgallee 56, 53044"
           temp="13°"
-          byAir="54 km "
+          byAir="54,20  km "
           distance="55 mins"
           icon={<BsChevronDown/>}
           />

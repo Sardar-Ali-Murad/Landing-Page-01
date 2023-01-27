@@ -27,8 +27,9 @@ font-weight: 700;
 line-height: 32px;
 letter-spacing: 0.02em;
 text-align: left;
-font-family: 'Roboto Mono', monospace;
+/* font-family: 'Roboto Mono', monospace; */
 color: #000000;
+font-family: 'Roboto', sans-serif;
 }
 
 
@@ -57,10 +58,11 @@ color: #000000;
 font-size: 20px;
 font-weight: 500;
 text-align: left;
-font-family: 'Roboto Mono', monospace;
+/* font-family: 'Roboto Mono', monospace; */
 color: #232323;
 font-size: 16px;
 font-weight: bold;
+font-family: 'Roboto', sans-serif;
 }
 
 
@@ -70,8 +72,9 @@ font-weight: 300;
 line-height: 22px;
 letter-spacing: 0.02em;
 text-align: left;
-font-family: 'Roboto Mono', monospace;
+/* font-family: 'Roboto Mono', monospace; */
 color: #232323;
+font-family: 'Roboto', sans-serif;
 
 }
 
@@ -101,8 +104,9 @@ font-weight: 400;
 line-height: 16px;
 letter-spacing: 0.02em;
 text-align: left;
-font-family: 'Roboto Mono', monospace;
+/* font-family: 'Roboto Mono', monospace; */
 color: #838383;
+font-family: 'Roboto', sans-serif;
 }
 
 
@@ -123,7 +127,8 @@ line-height: 22px;
 letter-spacing: 0.02em;
 text-align: left;
 color: #232323;
-font-family: 'Roboto Mono', monospace;
+/* font-family: 'Roboto Mono', monospace; */
+font-family: 'Roboto', sans-serif;
 }
 
 .locationIcon{
@@ -137,7 +142,8 @@ line-height: 22px;
 letter-spacing: 0.02em;
 text-align: left;
 color: #232323;
-font-family: 'Roboto Mono', monospace;
+/* font-family: 'Roboto Mono', monospace; */
+font-family: 'Roboto', sans-serif;
 }
 
 .seeMoreContent{
@@ -155,7 +161,8 @@ font-weight: 400;
 line-height: 22px;
 letter-spacing: 0.02em;
 text-align: left;
-font-family: 'Roboto Mono', monospace;
+/* font-family: 'Roboto Mono', monospace; */
+font-family: 'Roboto', sans-serif;
 }
 
 .seeMoreContent p{
@@ -166,8 +173,9 @@ letter-spacing: 0.02em;
 text-align: left;
 color: #838383;
 margin-bottom: 8px;
-font-family: 'Roboto Mono', monospace;
+/* font-family: 'Roboto Mono', monospace; */
 margin-bottom: 20px;
+font-family: 'Roboto', sans-serif;
 }
 
 .watch,.distanceIcon{

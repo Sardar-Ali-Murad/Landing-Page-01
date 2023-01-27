@@ -39,8 +39,9 @@ line-height: 27px;
 /* identical to box height */
 letter-spacing: 0.02em;
 color: #FFFFFF;
-font-family: 'Roboto Mono', monospace;
+/* font-family: 'Roboto Mono', monospace; */
 display: flex;
 justify-content: center;
 align-items: center;
+font-family: 'Roboto', sans-serif;
 }
